@@ -1,21 +1,21 @@
 # Aditya
 
-**AI & Machine Learning Engineer | Full-Stack Software Developer**  
+**AI/ML Engineer & Full-Stack Developer**  
 *Final-Year B.Tech in Computer Science & Engineering (Specialization: Artificial Intelligence & Machine Learning)*  
 
 [![GitHub](https://img.shields.io/badge/GitHub-1--a--d--i--t--y--a-181717?style=flat-square&logo=github)](https://github.com/1-a-d-i-t-y-a)
-[![License](https://img.shields.io/badge/Open_Source-Contributor-0969da?style=flat-square)](#featured-projects)
-[![Focus](https://img.shields.io/badge/Focus-Computer_Vision_%7C_MLOps_%7C_Web_Platforms-green?style=flat-square)](#technical-specialization)
+[![Open Source](https://img.shields.io/badge/Open_Source-Contributor-0969da?style=flat-square)](#top-featured-projects)
+[![Focus](https://img.shields.io/badge/Focus-Computer_Vision_%7C_MLOps_%7C_Full--Stack-green?style=flat-square)](#technical-specialization)
 
 ---
 
 ## About Me
 
-I am a final-year Computer Science undergraduate specializing in Artificial Intelligence and Machine Learning. My technical work spans practical machine learning systems, real-time computer vision, and production-ready full-stack web applications. I focus on building reproducible, well-tested, and maintainable software with clean architecture and robust API design.
+I am a final-year Computer Science undergraduate specializing in Artificial Intelligence and Machine Learning. My technical work centers on practical machine learning pipelines, real-time computer vision, and production-oriented full-stack web applications. I focus on building reproducible, well-tested, and maintainable software with clean architecture and robust API design.
 
-* 🎯 **Current Focus:** Deep Learning, Real-Time Computer Vision pipelines, and scalable backend architectures.
-* 🛠️ **Engineering Principles:** Reproducible environments, defensive error handling, test-driven reliability, and transparent documentation.
-* 🤝 **Open Source:** Actively developing and refining open-source software with strict engineering standards.
+* **Specialization:** Real-Time Computer Vision pipelines, classical and deep learning models, and scalable REST backends.
+* **Engineering Principles:** Zero-dependency local reproducibility, defensive error handling, test-driven reliability, and transparent documentation.
+* **Open Source:** Actively developing and refining open-source software with strict engineering standards.
 
 ---
 
@@ -70,46 +70,43 @@ I am a final-year Computer Science undergraduate specializing in Artificial Inte
 
 ---
 
-## Featured Projects
+## Top Featured Projects
 
-### 🏆 [smart-retail-ai](https://github.com/1-a-d-i-t-y-a/smart-retail-ai) *(Flagship Project)*
-> **AI-Powered Smart Retail & Customer Intelligence Platform**  
-> A production-oriented, offline-first AI/ML retail backend combining computer vision, natural language processing, and deterministic customer service automation.
+### 1. [smart-retail-ai](https://github.com/1-a-d-i-t-y-a/smart-retail-ai) *(Flagship Platform)*
+> **Offline-First AI/ML Retail Intelligence Platform**  
+> A modular, production-ready retail automation backend combining classical computer vision, natural language processing, and deterministic customer service automation under FastAPI.
 
-* **Computer Vision:** Image classification with HOG descriptors and RBF SVM; Haar Cascade face verification with SSIM and correlation scoring.
-* **NLP & Text Analysis:** Retail review sentiment analysis with TF-IDF vectorization and Logistic Regression; phrase-weighted intent routing chatbot.
-* **Engineering:** FastAPI REST service, Pydantic data contracts, in-memory telemetry, Docker containerization, and automated Pytest test suite.
-* **Tech:** Python, FastAPI, OpenCV, Scikit-learn, Pytest, Docker.
+* **Machine Learning Pipelines:** HOG feature extraction with RBF SVM for catalog classification; Haar Cascade face verification with SSIM and correlation scoring; TF-IDF with Multinomial Logistic Regression for review sentiment analysis.
+* **Customer Support Automation:** Phrase-weighted deterministic intent routing across 8 retail support domains without third-party API dependencies.
+* **Engineering Standards:** Pydantic data validation, in-memory telemetry, Docker/Docker Compose orchestration, and 24 automated Pytest test cases.
+* **Stack:** Python, FastAPI, OpenCV, Scikit-learn, Pytest, Docker.
 
 ---
 
-### 🌐 [AI-Website-Builder](https://github.com/1-a-d-i-t-y-a/AI-Website-Builder)
+### 2. [AI-Website-Builder](https://github.com/1-a-d-i-t-y-a/AI-Website-Builder) *(Full-Stack Showcase)*
 > **Full-Stack AI-Assisted Website Generation Platform**  
-> An end-to-end full-stack web application that allows users to prompt, preview, edit, and publish custom responsive websites.
+> An end-to-end full-stack web application enabling users to prompt, preview, edit in-browser, and publish responsive websites.
 
-* **Frontend:** React 19, Vite, Tailwind CSS, Monaco Editor integration, Framer Motion animations.
-* **Backend:** Express 5 REST API, MongoDB (Mongoose), Firebase OAuth authentication, Razorpay billing integration.
-* **AI Engine:** Pluggable AI provider abstraction supporting Gemini, Groq, OpenRouter, and Cloudflare.
-* **Tech:** React, Vite, Node.js, Express, MongoDB, Firebase, Razorpay.
+* **Frontend Architecture:** React 19, Vite, Tailwind CSS, Monaco Editor integration with live iframe rendering, and Redux Toolkit state management.
+* **Backend Architecture:** Express 5 REST API, MongoDB (Mongoose), Firebase OAuth authentication, and Razorpay billing integration.
+* **AI Engine:** Pluggable multi-provider abstraction supporting Gemini, Groq, OpenRouter, and Cloudflare Workers AI.
+* **Stack:** React, Vite, Node.js, Express, MongoDB, Firebase, Razorpay.
 
 ---
 
-### 🚗 [driver-drowsiness-detection](https://github.com/1-a-d-i-t-y-a/driver-drowsiness-detection)
+### 3. [driver-drowsiness-detection](https://github.com/1-a-d-i-t-y-a/driver-drowsiness-detection) *(Computer Vision Showcase)*
 > **Real-Time Driver Drowsiness and Yawn Alert System**  
-> A computer vision safety assistance system that monitors facial landmarks to detect fatigue, prolonged eye closure, and yawning in real time.
+> A computer vision safety assistance system that monitors facial landmarks via webcam to detect fatigue, prolonged eye closure, and yawning in real time.
 
-* **Facial Geometry:** MediaPipe 468-point facial mesh analysis with Eye Aspect Ratio (EAR) and Mouth Aspect Ratio (MAR) metrics.
-* **Fatigue Analysis:** Implements rolling PERCLOS (Percentage of Eye Closure) fatigue tracking.
-* **Alert System:** Audio alert triggers via synthesized frequencies and interactive visual heads-up display (HUD).
-* **Tech:** Python, OpenCV, MediaPipe, SciPy, NumPy, Pygame.
+* **Facial Geometry:** MediaPipe 468-point facial mesh analysis computing Eye Aspect Ratio (EAR) and Mouth Aspect Ratio (MAR) metrics.
+* **Fatigue Analysis:** Real-time rolling PERCLOS (Percentage of Eye Closure) tracking across a 75-frame observation window.
+* **Alert System:** Synthesized audio alarm tones (880 Hz for drowsiness, 440 Hz for yawning) and dynamic visual Heads-Up Display (HUD) overlay.
+* **Stack:** Python, OpenCV, MediaPipe, SciPy, NumPy, Pygame.
 
 ---
 
-### 📊 [AI-Basics-Hub](https://github.com/1-a-d-i-t-y-a/AI-Basics-Hub)
-> **Digital Marketing & Educational Content Strategy Hub**  
-> A clean, responsive static documentation portal covering search engine optimization, content strategy, campaign planning, and web analytics.
-
-* **Tech:** Semantic HTML5, Modern CSS3, Vanilla JavaScript, GitHub Pages.
+### Other Projects
+* **[AI-Basics-Hub](https://github.com/1-a-d-i-t-y-a/AI-Basics-Hub):** Educational digital marketing strategy and documentation portal covering WordPress development, technical SEO, campaign modeling, and web analytics.
 
 ---
 
@@ -122,8 +119,7 @@ I am a final-year Computer Science undergraduate specializing in Artificial Inte
 
 ---
 
-## Open-Source Goals & Collaboration
+## Connect & Collaborate
 
-* 🔭 Open to contributing to Computer Vision, PyTorch/TensorFlow tooling, and FastAPI backend frameworks.
-* 📚 Currently deepening expertise in MLOps pipelines, model quantization, and distributed training.
-* 📫 Connect with me on GitHub: [@1-a-d-i-t-y-a](https://github.com/1-a-d-i-t-y-a)
+* **Focus Areas:** Computer Vision, MLOps, Scalable Backend Services, Open-Source Tools.
+* **GitHub:** [@1-a-d-i-t-y-a](https://github.com/1-a-d-i-t-y-a)
